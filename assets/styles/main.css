@@ -8,6 +8,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background: #fafafa;
 }
 
 header,
@@ -118,6 +119,68 @@ nav {
 }
 
 /* Notes Section Styles  */
+.notes-section {
+  padding: 50px 0;
+}
+
+.note-heading h1 {
+  color: #001931;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+
+.note-heading p {
+  color: #627382;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.note-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.context-box {
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  padding: 24px;
+  background: #fff;
+
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 320px;
+  height: 300px;
+}
+
+.context-box img {
+  background: #f95555;
+  border-radius: 100%;
+  padding: 13px 14px;
+}
+
+.context-box h3 {
+  color: #001931;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-transform: capitalize;
+}
+
+.context-box p {
+  color: #627382;
+  line-height: 20px;
+}
+
 /* Second Brain Section Styles  */
 /* Early Access Section Styles  */
 /* Footer Section Styles */
