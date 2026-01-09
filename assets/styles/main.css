@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header,
+.notes-section,
+.early-access.section,
+.second-brain-section {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 12px 16px;
+  background: #30b868;
+  border: none;
+  cursor: pointer;
+}
+
+/* Navbar Section Styles */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+/* Banner Section Styles  */
+/* Notes Section Styles  */
+/* Second Brain Section Styles  */
+/* Early Access Section Styles  */
+/* Footer Section Styles */
