@@ -14,7 +14,8 @@ body {
 header,
 .notes-section,
 .early-access-section,
-.second-brain-section {
+.second-brain-section,
+.footer-section {
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -278,3 +279,36 @@ nav {
 }
 
 /* Footer Section Styles */
+footer {
+  background: #001931;
+  padding-bottom: 30px;
+  padding-top: 120px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding-bottom: 80px;
+}
+
+.social-links p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.copyright {
+  padding-top: 30px;
+  border-top: 1px solid #e5e7eb33;
+  text-align: center;
+  color: #fafafa;
+  line-height: 24px;
+}
