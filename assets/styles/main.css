@@ -12,7 +12,7 @@ body {
 
 header,
 .notes-section,
-.early-access.section,
+.early-access-section,
 .second-brain-section {
   max-width: 1600px;
   margin: 0 auto;
@@ -50,6 +50,73 @@ nav {
 }
 
 /* Banner Section Styles  */
+
+.banner-section {
+  background-image: url("../images/hero-bg.png");
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner-highlight {
+  background: #fff;
+  padding: 8px 12px;
+  display: flex;
+  gap: 6px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+}
+
+.banner-highlight p {
+  color: #30b868;
+  font-weight: 500;
+}
+
+.banner-heading {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  color: #fff;
+  opacity: 0.9;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.color-heading {
+  color: #30b868;
+}
+
+.banner-text {
+  max-width: 700px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-with-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-play {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
 /* Notes Section Styles  */
 /* Second Brain Section Styles  */
 /* Early Access Section Styles  */
