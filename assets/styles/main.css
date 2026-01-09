@@ -27,6 +27,13 @@ header,
   background: #30b868;
   border: none;
   cursor: pointer;
+  border: 1px solid #30b868;
+}
+
+.btn:hover {
+  color: #30b868;
+  background: #fff;
+  border: 1px solid #30b868;
 }
 
 /* Navbar Section Styles */
@@ -118,10 +125,18 @@ nav {
   border: 1px solid #fff;
 }
 
+.btn-play:hover {
+  border: 1px solid #30b868;
+  background: transparent;
+}
+
+.btn-arrow:hover {
+  border: 1px solid #fff;
+}
+
 /* Notes Section Styles  */
 .notes-section,
-.second-brain-section,
-.early-access-section {
+.second-brain-section {
   padding: 60px 0;
 }
 
@@ -228,4 +243,38 @@ nav {
 }
 
 /* Early Access Section Styles  */
+.early-access-section {
+  padding: 80px 40px;
+  background: #f7f6f2;
+  border-radius: 12px;
+  margin-bottom: 120px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.early-access-section h1 {
+  color: #001931;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+
+.early-access-section .sub-heading {
+  color: #627382;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.early-access-section .conditions {
+  color: #627382;
+  line-height: 20px;
+}
+
+.early-access-section .btn {
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
 /* Footer Section Styles */
